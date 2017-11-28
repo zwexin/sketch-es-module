@@ -1,6 +1,6 @@
-# sketch-es6-module
+# sketch-es-module
 
-[![Build Status](https://travis-ci.org/south-farm/sketch-es6-module.svg?branch=master)](https://travis-ci.org/south-farm/sketch-es6-module)
+[![Build Status](https://travis-ci.org/south-farm/sketch-es-module.svg?branch=master)](https://travis-ci.org/south-farm/sketch-es-module)
 
 A simple boilerplate for es6/es7 project, you can start your npm module from this.
 
@@ -25,10 +25,10 @@ Two ways to get start.
 npm install -g sao
 
 # start from latest
-sao south-farm/sketch-es6-module my-module -u
+sao south-farm/sketch-es-module my-module -u
 
 # or start from sepecific version
-sao south-farm/sketch-es6-module#v0.0.1 my-module
+sao south-farm/sketch-es-module#v0.0.1 my-module
 
 # after project is created
 cd my-module
