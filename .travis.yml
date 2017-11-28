@@ -2,13 +2,13 @@ language: node_js
 node_js:
 - '8'
 env:
-  secure: CcJkeuTxJp9uq6X2Yml1SvkXyb3piS7h3aBO4hJonlLhArKjT6XlWvhoehxlVPlId8vVqeWGBJhSblljD42s0cpD2eoOMgAYjLswv6N805bzizkav4dieHpT+UZVJDWHfSiTfhz0G3ZVzVxeLu+IvIdUOQnRiv89xVbWTmZmDmHc7EZ0ebHdW4UqKZCKNRzhLwbj9gNULL0yI7msirghKbYiEY3na1gnRY9cfLTc0uHjLr6lljZZ2EoED9hZqDnCYdJacf8t6n7jWEJdib4MZblQLng1pf5Xew2F52oyewWEwBZemblUp/RCtxUlHQI8TGPMe67vcrkj5RmakVyTVDi+H4btD9wTvppJlgWaDlYVZnLYvxTdugAG9mhR0JVWRTP/jmJxgDg6aIrg83KSoMlegmyerry+W18QtbjLsANHOB3XI5Mim0mC+3BZ0XgaEQcIOpZa+5oiw68zOLhWoBh02GuGZY7IvaCBnICagbyDupGeMg3ktWkf3K38wdCDOis0Kc0mFjwClo60eGxXd27SI+LijXoEP8c3/mtnIAWBBq0zjb20OGi9GosHi0KWp+K6ZXEZxdwTsNAoBlAzK/FaylBnUeL3j9jQIWUemKbY6iTKjYL51/XxWud1vGnIabZ6ZKHJ6OATM65JaajSBx0Pg8aj5tCxpDG7geZlq2A=
+  secure: LyLfCtRtKSM4bnB0BEdS4qKUtfPqGaOafTB6m+rVkwHNtkb9dyTLX2KP/A8HlI/hajDJzTL4iyqpgHVYCT7Ae1WuBW5lMyF8EyRqD7izqZ7NcWAy+GDt9HZjf16C3tZnc4pUKRzOhT9tCFUhcH+RFuIPNM0OSSVHBtQZA6i7aSbzQ+iux9JUj4L81fi1B9x5bTBi5uoq6iN4dG/jsRe45Cy7FLkamHv3KF++TmLEkz5+ILy2r9/hs/uNw1yWFrigXwCYKkr94LreXzMP6UNGhqtCs78zAgta2fejHLaSdwQBuuVxB1ZMsOOwbSglOC3mlufIddPFs5BXYZIDd0+2RJBW3gfwgLdXYiQ8OBkCmBCxv07d6fLBaNv0yi9o3A7SOE52nRhkWe3pkEuOB37nRfYg1Mog05w8f/6VeZM8vBUoPVotZqk46Ex1Pf0yaNN8/eSQaWU2n66zJ+gac8hcD/sARSGPDf91GuW7vZwexjzfh861HjGYYEawx5wPiBDj7Y/xIQArs+8zlOWnhO0ignLswZ9jYxUa9ORSdD2D6EVkp4a1N7U6BjuZiVhjVSzRA+5zKSeVIu91cr1RFvOl4x80rC3wy6cHzEotUmo4yMEpm6N4Ob5Et08cBt9SlJ5uS5PAcUDK+2g1QFZGv2m8Fu3wfg4/X69abQSASXiTsKo=
 deploy:
   skip_cleanup: true
   provider: npm
   email: zzswang@south.farm
   api_key:
-    secure: c1XMhEq7snBRQVhzf+xb80dctf3cwalOAKdcZLk/uhI8wgtbAcaxWI+JdfwFUiF0i0UJ+45Nc/wgHEVcgJrYpZmslt6QoMJZCQ1wPj+eAGwgeIMFd1QywIpJfFF16Rjz+LM5rS/YsgT0o2XwWQcrXhJ8NBERuffLhX30k09GZHEoK94XEkSvaCCf+rk7v1OK8w64Igg60SKUHh7r8CLKKIaYUHJfzWE7CE5Srjz47sFW0ovodID0+4Vr56Zpc7g6/19OOV7VdZRy4njGtu3Es3HotfIGzVHUfr/iiwBzcupmAC4KndkRLqQVpZd9L38vkTmc/pmV0CrXl62Msecu36/+vxQIR7Gtc+8r65XG/oIW+DAiiRFrlYzUf58lD3ahlraPg4FuoYT9d7eAaWTWTeCNj7EIcjfz9jFxH+AEmmDCijUXhewA3GNv+iqZdvAlLyVtadjhHJK/Gi+fkMgKb+R7XqW0b5ZkAYGcmxYLA/OW9S/sfnSQW3hNWEf7M4+MUuecYVha7R1FEwgtSckdFEffR2nlEvdsRLFi56ctI1z+hNJmnOBnNwlZ0Cf9PpCwdtijLahi1HyDbDjCgCfS34qSQsv1UkU6pjiAkCj0UIdFtQf99WURtFvIyG0EeiZqJynHDUv+dcRmf6aO1b6t6EP8wu7diH0r41IO/EqaqFI=
+    secure: Vk/MBsBsee/32aLluRHXcxLt99iKklCtC6RTxL/gQlZ8yJdTYlYnmjxcBAqpvBkHXnTwy/M00+IrJLWgC/Odl6V3XpIAivPvHo9iHFNXdPULAijjcdvLsES9VUZHoWAieUr7pycOVadtdzdLXIv2zc8mfofdIlc3h2QUyVCJV1nYBHLcBkvBKlzBbZPi6XRrlDRKVghk8/DdIUZvW5iBhhUvgERW0+j963MtIu84CziveZpWNSHKuoNgSHKaXn49XWFKCxRYOp7MB8YMXuU32cqKEOyTFP1ocHr7xuOVI3BxFPbcD2xniQjT3VbBYAJVLyq2kRfbRyx5qb90Mr5PeKY+b4iJsT9nBU2ldhEHfi1JkEA3NM1Tr9darPd56mcUkxgQcefFKHRSjUrlv2Ez5zsqB2cKCK79tZCYd03k3MVqKGmGqksDQoynEDX0tatvMdMz1xv9O9g2dH0IAMQ51tSBnXumLdS2KgQWFqI5Cpc2+f4UsXdiGjIus6KU2pEJFm8XuXFIllMPReQo7+6s+Wc0sY49SkkAdYLupx9bjIKLA7wBmUKiVU6k5W/0z69G9QZt/acakBs0HbNJ3CdHuVYElzcQGAO/aWxJIY5tjvg4oNazNEOXWhqiy7P0epMX54nrBK8NhZ92ML0sByiX7/7yPuFqs47GRJKCpl6OJsY=
   on:
     tags: true
 after_deploy:
@@ -16,5 +16,6 @@ after_deploy:
   ; fi`
 - if ([ ! -z "$TAG" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$SKIP_BUILD"
   != "true" ]); then echo "Slack notice on tag ${TAG}"; curl -X POST -H 'Content-type:application/json'
-  --data '{"text":"<https://github.com/south-farm/es-dev-tools|es-dev-tools> 发布 '$TAG' 版本。\n<https://github.com/south-farm/es-dev-tools/blob/master/CHANGELOG.md|看看有什么新货色>"}' $SLACK_URL;
-  fi
+  --data '{"text":"<https://github.com/south-farm/sketch-es-module|sketch-es-module>
+  发布 '$TAG' 版本。\n<https://github.com/south-farm/sketch-es-module/blob/master/CHANGELOG.md|看看有什么新货色>"}'
+  $SLACK_URL; fi
