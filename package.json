@@ -1,0 +1,59 @@
+{
+  "name": "@southfarm/sketch-es-module",
+  "version": "0.0.0",
+  "description": "A well done boiplate for es6/7, npm scripts, jest and babel compile.",
+  "main": "./dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "south-farm/sketch-es-module",
+  "bugs": {
+    "url": "https://github.com/south-farm/sketch-es-module/issues"
+  },
+  "scripts": {
+    "build": "rm -rf dist && babel ./src -d ./dist --ignore test.js",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "lint": "eslint src && remark . -qfo",
+    "prepare": "npm run build",
+    "release": "standard-version --no-verify && git push --follow-tags origin master",
+    "start": "npm test -- --watch",
+    "test": "npm run flow && npm run lint && jest"
+  },
+  "keywords": [
+    "node",
+    "module",
+    "es6",
+    "es7",
+    "jest",
+    "babel",
+    "flow",
+    "commitlint",
+    "husky"
+  ],
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-flow-strip-types"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "southfarm"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@southfarm/es-dev-tools": "*"
+  }
+}
