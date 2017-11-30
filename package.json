@@ -1,7 +1,7 @@
 {
   "name": "@southfarm/sketch-es-module",
   "version": "0.0.1",
-  "description": "A well done boiplate for es6/7, npm scripts, jest and babel compile.",
+  "description": "A well done boiplate for es6/7 module, npm scripts, jest and babel compile.",
   "main": "./dist/index.js",
   "publishConfig": {
     "access": "public"
