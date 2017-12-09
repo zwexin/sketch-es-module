@@ -1,6 +1,6 @@
 {
   "name": "@southfarm/sketch-es-module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A well done boiplate for es6/7 module, npm scripts, jest and babel compile.",
   "main": "./dist/index.js",
   "publishConfig": {
