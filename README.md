@@ -6,15 +6,15 @@ A simple boilerplate for es6/es7 project, you can start your npm module from thi
 
 Only with neccessary key features:
 
-- babel
-- commitlint
-- eslint
-- flow
-- husky
-- jest
-- prettier
-- remark
-- standard-version
+-   babel
+-   commitlint
+-   eslint
+-   flow
+-   husky
+-   jest
+-   prettier
+-   remark
+-   standard-version
 
 ## Usage
 
@@ -55,14 +55,14 @@ Update your readme which is not in any of other one's reponsiblity
 
 ## Scripts
 
-- build: 用 Babel 把 code 编译到标准 es5
-- flow: Facebook 出品的类型校验器，类似 Typescript，但是不强奸
-- commitmsg: 规范 Commit message 的工具
-- lint: 代码格式检查
-- prepare: 发布前需要跑
-- release: 发布，已经 push 到远端，剩下需要自己执行 npm publish, check [standard-version](https://github.com/conventional-changelog/standard-version).
-- start: 写代码前跑起来
-- test: 测试
+-   build: 用 Babel 把 code 编译到标准 es5
+-   flow: Facebook 出品的类型校验器，类似 Typescript，但是不强奸
+-   commitmsg: 规范 Commit message 的工具
+-   lint: 代码格式检查
+-   prepare: 发布前需要跑
+-   release: 发布，已经 push 到远端，剩下需要自己执行 npm publish, check [standard-version](https://github.com/conventional-changelog/standard-version).
+-   start: 写代码前跑起来
+-   test: 测试
 
 ## Folder Layout
 
