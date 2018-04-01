@@ -41,5 +41,5 @@ jobs:
           DOCKER_REGISTRY="registry.us-west-1.aliyuncs.com"
           DOCKER_REPO="registry.us-west-1.aliyuncs.com/36node/sketch-es-service"
           TAG=latest
-          docker build -t "$DOCKER_REPO:$TAG" --file ./Dockefile .
+          docker build -t "$DOCKER_REPO:$TAG" --file --file `pwd`/Dockerfile .
 
