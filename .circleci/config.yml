@@ -15,9 +15,9 @@ jobs:
       # - image: circleci/mongo:3.4.4
 
     working_directory: ~/repo
-    environment:
-      DOCKER_REGISTRY:"registry.us-west-1.aliyuncs.com",
-      DOCKER_REPO:"registry.us-west-1.aliyuncs.com/36node/sketch-es-service"
+    environment: |
+      DOCKER_REGISTRY="registry.us-west-1.aliyuncs.com"
+      DOCKER_REPO="registry.us-west-1.aliyuncs.com/36node/sketch-es-service"
     steps:
       - checkout
 
