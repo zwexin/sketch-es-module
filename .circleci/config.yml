@@ -40,5 +40,5 @@ jobs:
       - setup_remote_docker
       - run: |
           TAG=latest
-          docker build -t   $DOCKER_REPO:$TAG .
+          docker build -t "$DOCKER_REPO:$TAG" .
 
