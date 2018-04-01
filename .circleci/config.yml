@@ -37,19 +37,9 @@ jobs:
       #- run: yarn test
       - setup_remote_docker: 
           docker_layer_caching: true
-      - run:
-          name: Install Docker client
-          command: |
-            set -x
-            VER="17.03.0-ce"
-            curl -L -o /tmp/docker-$VER.tgz https://download.docker.com/linux/static/stable/x86_64/docker-$VER.tgz
-            tar -xz -C /tmp -f /tmp/docker-$VER.tgz
-            mv /tmp/docker/* /usr/bin
       - run: |
           DOCKER_REGISTRY="registry.us-west-1.aliyuncs.com"
           DOCKER_REPO="registry.us-west-1.aliyuncs.com/36node/sketch-es-service"
-          TAG=latest
-          ls -lh
-          docker build -t "$DOCKER_REPO:$TAG" --file  `pwd`/Dockerfile .
-          ls -lh
+          docker build -t "$DOCKER_REPO:$TAG" .
+          
 
