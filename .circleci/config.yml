@@ -36,9 +36,10 @@ jobs:
       # run tests!
       #- run: yarn test
       - setup_remote_docker
+          docker_layer_caching: true
       - run: |
           DOCKER_REGISTRY="registry.us-west-1.aliyuncs.com"
           DOCKER_REPO="registry.us-west-1.aliyuncs.com/36node/sketch-es-service"
           TAG=latest
-          docker build -t "$DOCKER_REPO:$TAG" .
+          docker build -t "$DOCKER_REPO:$TAG" --file ./Dockefile .
 
