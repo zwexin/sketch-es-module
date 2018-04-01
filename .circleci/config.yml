@@ -16,8 +16,8 @@ jobs:
 
     working_directory: ~/repo
     environment:
-      DOCKER_REGISTRY:registry.us-west-1.aliyuncs.com
-      DOCKER_REPO:$DOCKER_REGISTRY/36node/sketch-es-service
+      DOCKER_REGISTRY:"registry.us-west-1.aliyuncs.com"
+      DOCKER_REPO:"registry.us-west-1.aliyuncs.com/36node/sketch-es-service"
     steps:
       - checkout
 
