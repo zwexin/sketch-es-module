@@ -43,5 +43,5 @@ jobs:
           DOCKER_REPO=registry.us-west-1.aliyuncs.com/36node/sketch-es-service
           docker build -t "$DOCKER_REPO:$TAG" .
           ls -lh
-          
+          docker images
 
