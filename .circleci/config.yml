@@ -15,7 +15,9 @@ jobs:
       # - image: circleci/mongo:3.4.4
 
     working_directory: ~/repo
-
+    environment:
+      DOCKER_REGISTRY:registry.us-west-1.aliyuncs.com
+      DOCKER_REPO:$DOCKER_REGISTRY/36node/sketch-es-service
     steps:
       - checkout
 
@@ -36,4 +38,7 @@ jobs:
       # run tests!
       #- run: yarn test
       - setup_remote_docker
+      - run: |
+          TAG=latest
+          docker build -t   $DOCKER_REPO:$TAG .
 
